@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1080px;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(214, 214, 214);
+}

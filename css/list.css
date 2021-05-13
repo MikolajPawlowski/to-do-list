@@ -1,0 +1,36 @@
+.section__list {
+    list-style: none;
+    padding: 20px 20px;
+    border-bottom: 1px solid grey;
+}
+
+.list__item {
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.list__span {
+    word-break: break-all;
+    flex-grow: 1;
+}
+
+.list__span--done {
+    text-decoration-line: line-through;
+}
+
+.list__button {
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+    border: none;
+    background-color: green;
+    color: whitesmoke;
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.list__button--remove {
+    background-color: red;
+}
