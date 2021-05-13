@@ -1,14 +1,13 @@
 .section__list {
     list-style: none;
     padding: 20px 20px;
-    border-bottom: 1px solid grey;
 }
 
 .list__item {
     display: flex;
     padding: 10px 10px;
     align-items: center;
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid rgb(235, 235, 235);
 }
 
 .list__span {
@@ -26,8 +25,8 @@
     margin: 0 10px;
     border: none;
     background-color: green;
-    color: whitesmoke;
-    font-family: 'Open Sans';
+    color: white;
+    font-family: 'Montserrat';
     font-size: 15px;
 }
 
