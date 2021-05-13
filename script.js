@@ -1,11 +1,23 @@
 {
     const tasks = [];
 
+    const resetInput = () => {
+        const resetField = document.querySelector(".js-newTask");
+        resetField.value = "";
+    };
+
+    const focusInput = () => {
+        const newTaskFocus = document.querySelector(".js-newTask").focus();
+        if (newTaskFocus == "") {
+            newTaskFocus.focus()
+        };
+    };
     const addNewTask = (newTaskContent) => {
         tasks.push({
             content: newTaskContent
         });
-
+        resetInput();
+        focusInput();
         render();
     };
 
