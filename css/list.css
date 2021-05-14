@@ -23,6 +23,7 @@
     color: white;
     font-family: 'Montserrat';
     font-size: 15px;
+    flex-shrink: 0;
 }
 
 .list__button--remove {
