@@ -15,16 +15,16 @@
     border: none;
     display: flex;
     padding: 15px;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-color: white;
 }
 
 .form__input {
-    display: flex;
-    flex-grow: 5;
-    order: -1;
+    flex-grow: 1;
     padding: 10px;
     border: 1px solid rgb(235, 235, 235);
+    margin-right: 5px;
 }
 
 .form__button {
@@ -32,7 +32,6 @@
     color: white;
     padding: 10px;
     border: none;
-    flex-grow: 1;
     margin: 5px 10px;
 }
 

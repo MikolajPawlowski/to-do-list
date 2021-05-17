@@ -7,7 +7,7 @@
     };
 
     const focusInput = () => {
-        const newTaskFocus = document.querySelector(".js-newTask").focus();
+        const newTaskFocus = document.querySelector(".js-newTask");
         if (newTaskFocus == "") {
             newTaskFocus.focus()
         };
@@ -61,7 +61,8 @@
             </button>
 
             <span class="list__span${task.done ? " list__span--done" : ""}">
-            ${task.content}</span>
+            ${task.content}
+            </span>
             
             <button class="list__button list__button--remove js-remove">🗑️</button>    
             </li>
