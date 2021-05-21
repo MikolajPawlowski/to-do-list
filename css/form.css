@@ -2,15 +2,6 @@
     max-width: 1080px;
 }
 
-.form__header {
-    font-size: 17px;
-    padding: 20px 10px;
-    margin: 5px 2px;
-    background-color: white;
-    border-bottom: white;
-    border-bottom: 2px solid rgb(235, 235, 235);
-}
-
 .form__fieldset {
     border: none;
     display: flex;
