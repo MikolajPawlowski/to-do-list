@@ -39,6 +39,9 @@
     background-color: rgb(50, 168, 168);
 }
 
+.form_button:active {
+    background-color: rgb(65, 207, 207);
+}
 @media(max-width:767px) {
     .form__button {
         width: 100%;
