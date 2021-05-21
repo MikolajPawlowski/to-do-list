@@ -76,7 +76,7 @@
             newTaskElement.value = "";
         }
 
-        newTaskContent.focus();
+        newTaskElement.focus();
     };
 
     const init = () => {

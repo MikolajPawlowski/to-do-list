@@ -19,16 +19,15 @@
     width: 30px;
     margin: 0 10px;
     border: none;
-    background-color: green;
     color: white;
     flex-shrink: 0;
 }
 
-.list_button--toggleDone {
-    background-color: rgb(0, 180, 0);
+.list__button--toggleDone {
+    background-color: rgb(0, 160, 0);
 }
 
-.list_button--toggleDone:hover {
+.list__button--toggleDone:hover {
     background-color: rgb(0, 200, 0);
 }
 
