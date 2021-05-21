@@ -33,12 +33,12 @@
 .form_button:active {
     background-color: rgb(65, 207, 207);
 }
+
 @media(max-width:767px) {
     .form__button {
         width: 100%;
         margin: 10px 0;
     }
-
     .form__fieldset {
         flex-direction: column;
         flex-wrap: wrap;
