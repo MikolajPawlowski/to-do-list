@@ -5,8 +5,11 @@
 }
 
 .section__header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid rgb(235, 235, 235);
     padding: 10px;
 }
@@ -55,7 +58,10 @@
         flex-wrap: wrap;
     }
     .section__button {
-        width: 100%;
+        flex-basis: 100%;
         margin: 10px 0;
+    }
+    .section__header {
+        grid-template-columns: 1fr;
     }
 }
