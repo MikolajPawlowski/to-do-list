@@ -5,9 +5,15 @@
 }
 
 .section__header {
-    padding: 20px;
-    margin: 0;
+    display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid rgb(235, 235, 235);
+    padding: 10px;
+}
+
+.section__title {
+    padding: 10px;
+    margin: 0;
     font-size: 20px;
 }
 
@@ -19,6 +25,7 @@
 
 .section__buttons {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .section__buttons--hiddenButtons {
@@ -28,9 +35,8 @@
 .section__button {
     background-color: transparent;
     color: teal;
-    padding: 10px;
     border: none;
-    margin: 5px 10px;
+    margin: 0 0 0 20px;
     outline: none;
     transition: color .5s ease-out;
 }
@@ -40,14 +46,12 @@
 }
 
 .section__button:disabled {
-    background: rgb(235, 235, 235);
     color:rgb(189, 189, 189);
 }
 
 
 @media(max-width:767px) {
     .section__buttons {
-        flex-direction: column;
         flex-wrap: wrap;
     }
     .section__button {
