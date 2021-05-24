@@ -5,6 +5,10 @@
     border-bottom: 1px solid rgb(235, 235, 235);
 }
 
+.list__item--hidden {
+    display: none;
+}
+
 .list__span {
     word-break: break-all;
     flex-grow: 1;
@@ -21,6 +25,7 @@
     border: none;
     color: white;
     flex-shrink: 0;
+    transition: .5s ease-out;
 }
 
 .list__button--toggleDone {
