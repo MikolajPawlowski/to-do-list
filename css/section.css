@@ -48,9 +48,8 @@
 }
 
 .section__button:disabled {
-    color:rgb(189, 189, 189);
+    color: rgb(189, 189, 189);
 }
-
 
 @media(max-width:767px) {
     .section__buttons {

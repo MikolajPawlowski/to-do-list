@@ -71,7 +71,7 @@
               ${task.done ? "✓" : ""}
               </button>
 
-              <span class="list__span${ task.done ? " list__span--done" : ""}">
+              <span class="list__span${task.done ? " list__span--done" : ""}">
               ${task.content}
               </span>
             
@@ -91,11 +91,11 @@
         if (tasks.length > 0) {
             buttonsHTMLContent += `
                 <button class="section__button js-hideButton"
-                ${ tasks.every( task => !task.done) ? "disabled" : ""}>
+                ${tasks.every(task => !task.done) ? "disabled" : ""}>
                 ${hideDoneTasks ? "Pokaż ukończone" : "Ukryj ukończone"}
                 </button>
                 <button class="section__button js-doneButton"
-                ${ tasks.every(({ done }) => done) ? "disabled" : ""}>
+                ${tasks.every(({ done }) => done) ? "disabled" : ""}>
                 Ukończ wszystkie
                 </button>
                 `;
