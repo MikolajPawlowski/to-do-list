@@ -7,7 +7,7 @@
         tasks = [
             ...tasks.slice(0, taskIndex),
             ...tasks.slice(taskIndex + 1),
-        ]
+        ];
         render();
     };
 
@@ -70,11 +70,9 @@
               <button class="list__button list__button--toggleDone js-toggleDone">
               ${task.done ? "✓" : ""}
               </button>
-
               <span class="list__span${task.done ? " list__span--done" : ""}">
               ${task.content}
               </span>
-            
               <button class="list__button list__button--remove js-remove">
               🗑️
               </button>    
